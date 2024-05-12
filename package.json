@@ -1,0 +1,29 @@
+{
+  "name": "@nhcarrigan/typescript-config",
+  "version": "3.0.0",
+  "description": "Global config for my typescript projects",
+  "main": "tsconfig.json",
+  "scripts": {
+    "test": "tsc --rootDir './src' --outDir './prod' && echo 'build appears valid!'"
+  },
+  "engines": {
+    "node": "20",
+    "pnpm": "8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/naomi-lgbt/typescript-config.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Naomi Carrigan",
+  "license": "SEE LICENSE IN https://docs.nhcarrigan.com/#/license",
+  "bugs": {
+    "url": "https://github.com/naomi-lgbt/typescript-config/issues"
+  },
+  "homepage": "https://github.com/naomi-lgbt/typescript-config#readme",
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
