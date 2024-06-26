@@ -24,21 +24,15 @@ To use this package, add the following to your `tsconfig.json` file:
 
 ```json
 {
-  "extends": "@nhcarrigan/typescript-config"
-}
-```
-
-By default, the root directory is `src` and the output directory is `prod`. To override these:
-
-```json
-{
   "extends": "@nhcarrigan/typescript-config",
   "compilerOptions": {
-    "rootDir": "code",
-    "outDir": "dist"
+    "rootDir": "./src",
+    "outDir": "./prod"
   }
 }
 ```
+
+You may set `rootDir` and `outDir` to any directory in your project you'd like. As of V4.0.0 this package no longer sets them by default due to incompatibilities with some package managers.
 
 ## Feedback and Bugs
 
